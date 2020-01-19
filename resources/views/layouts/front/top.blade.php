@@ -1,0 +1,15 @@
+   <meta charset="utf-8">
+   <title>Warsaw : Organic Fruits &amp; Vegetables HTML Template | Homepage One</title>
+   <!-- Stylesheets -->
+   <link href="{{asset('front/css/bootstrap.css')}}" rel="stylesheet">
+   <link href="{{asset('front/css/revolution-slider.css')}}" rel="stylesheet">
+   <link href="{{asset('front/css/style.css')}}" rel="stylesheet">
+   <link rel="shortcut icon" href="{{asset('front/images/favicon.ico')}}" type="image/x-icon">
+   <link rel="icon" href="{{asset('front/images/favicon.ico')}}" type="image/x-icon">
+   <!-- Responsive -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <link href="{{asset('front/css/responsive.css')}}" rel="stylesheet">
+   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+   <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+

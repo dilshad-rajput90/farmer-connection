@@ -1,0 +1,30 @@
+namespace App;
+
+class Cart
+{
+
+    public $item = null;
+    public $total_qty = 0;
+    public $total_price = 0;
+
+
+    public function __construct($oldcart)
+    {
+
+        if($oldcart)
+        {
+
+            $this->items = $oldcart->items;
+            $this->qty = $oldcart->total_qty;
+            $this->price = $oldcart->total_price;
+        }
+    }
+
+    public function add($item,$id)
+    {
+
+        $storedItem =
+
+    }
+
+}

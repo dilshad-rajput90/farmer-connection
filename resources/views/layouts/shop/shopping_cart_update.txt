@@ -1,0 +1,16 @@
+      {!! Form::open(['url'=>'/update_cart/'.$product_cart[0]['cart_item'][0]['id'],'method'=>'post','class'=>'form-control','files'=>true]) !!}
+
+                                <div class="pull-right">
+                                        <input type="submit" value="Update">
+                                        {{-- <button type="button" class="theme-btn btn-style-one">Update Cart</button> --}}
+                                        <input type="hidden" name="prod_qty" value="{{ $product_cart[0]['cart_item'][0]['quantity'] }}">
+                                </div>
+                                {{-- <div class="pull-right">
+                                    <a href="/update_cart/{{ $product_cart[0]['cart_item'][0]['id'] }}">
+                                        <button type="button" class="theme-btn btn-style-one">Update Cart</button>
+                                    </a>
+
+                                </div> --}}
+                            </div>
+
+                            {!! Form::close() !!}
