@@ -358,12 +358,13 @@ class ShopController extends Controller
             // echo $request->all()['all_qty'][$key] * $request->all()['all_price'][$key], '<br>';
             $total_price1 = $request->all()['all_qty'][$key] * $request->all()['all_price'][$key];
             echo '<br>';
-             $total_price2 += $total_price1;
+             $total_price += $total_price1;
         }
 
-            echo $total_price2;
+            $data['total_price'] = $total_price;
+            // dd('done upto here');
 
-        dd('working');
+            // return view('layouts/shop/shopping_cart',$data);
 
 
     }
